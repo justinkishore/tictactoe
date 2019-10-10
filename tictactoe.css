@@ -1,0 +1,41 @@
+body {
+  background-color: #6eac43;
+}
+
+td {
+  background-color: #ccc;
+  text-align: center;
+  box-sizing: border-box;
+  width: calc(80%/3);
+  height: calc(50%/3);
+}
+
+table {
+  height: 100%;
+  width: 100%;
+}
+
+#player {
+  text-align: center;
+  font-weight: bold;
+  color: blue;
+  letter-spacing: 1px;
+  padding-bottom: 10px;
+  font-size: 1.5rem;
+}
+
+h1, .resetButton {
+  color: white;
+}
+
+.container {
+  position: absolute;
+  height: 50%;
+  width: 80%;
+  top: calc(10%/2);
+  left: calc(20%/2);
+}
+
+td, .resetButton {
+  font-size: 2rem;
+}
